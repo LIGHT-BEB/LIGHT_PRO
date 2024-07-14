@@ -12,7 +12,7 @@ except:
 bit = platform.architecture()[0]
 if bit == '64bit':
     
-        import light64_enc
+        import light64
     
  
 elif bit == '32bit':
